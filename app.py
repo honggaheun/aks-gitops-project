@@ -12,13 +12,13 @@ def hello():
     <head>
         <title>DevOps Project</title>
         <style>
-            body {{ background-color: #E3F2FD; color: #0D47A1; font-family: Arial, sans-serif; text-align: center; padding-top: 100px; }}
+            body {{ background-color: #E8F5E9; color: #0D47A1; font-family: Arial, sans-serif; text-align: center; padding-top: 100px; }}
             .container {{ border: 5px solid #2196F3; padding: 30px; border-radius: 20px; display: inline-block; background-color: white; }}
         </style>
     </head>
     <body>
         <div class="container">
-            <h1>🚀 Version 1.0 (Blue)</h1>
+            <h1>🚀 Version 2.0 (Green)</h1>
             <h2>Status: Running on AKS</h2>
             <p>Pod Name: {hostname}</p>
         </div>
