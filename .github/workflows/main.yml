@@ -20,5 +20,5 @@ jobs:
 
       - name: Build and Push
         run: |
-          docker build -t acr2020305085.azurecr.io/my-web-app:v2 .
-          docker push acr2020305085.azurecr.io/my-web-app:v2
+          docker build -t acr2020305085.azurecr.io/my-web-app:v3 .
+          docker push acr2020305085.azurecr.io/my-web-app:v3

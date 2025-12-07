@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: my-web-app
-        image: acr2020305085.azurecr.io/my-web-app:v2 
+        image: acr2020305085.azurecr.io/my-web-app:v3 
         ports:
         - containerPort: 80
