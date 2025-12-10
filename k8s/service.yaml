@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: my-web-app-active
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: my-web-app
   ports:
@@ -16,7 +16,7 @@ kind: Service
 metadata:
   name: my-web-app-preview
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: my-web-app
   ports:
